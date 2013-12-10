@@ -1,0 +1,639 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2b0a08d0-39db-4f2a-b55f-901fe10adee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Constants">
+      <UniqueIdentifier>{566ac690-0880-4b30-93bd-414f4ec6942c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Win32">
+      <UniqueIdentifier>{e419b91b-cc2b-4b53-8df6-9e18f65a7b47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{363efe59-25d9-4ff6-8352-1dd28df5a1c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OpenGL">
+      <UniqueIdentifier>{3ba02bf7-a4f6-477e-a737-5259206778b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{918b9bf2-bf5a-4568-b3e9-390b48f30af3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ScreenManager">
+      <UniqueIdentifier>{5a664f5c-d53a-4616-988b-8b8159f768f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{de7b7d4a-461d-428e-a6a6-afbfb954361b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils\Resource">
+      <UniqueIdentifier>{56363ea6-7214-4385-9e5f-58b6a3559354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils\Logger">
+      <UniqueIdentifier>{fbe5d691-d9d0-4592-bfc2-32b69a7887e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Constants\Game">
+      <UniqueIdentifier>{bdc0c04e-1dab-47ce-bf67-7db162cc6b70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Constants\Win32">
+      <UniqueIdentifier>{0eb99352-1a69-414e-8009-f94458b629bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils\Math">
+      <UniqueIdentifier>{d118ca98-8728-4f5f-b530-c01e912ef064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{8d9f0d30-10f1-4237-90bc-7e46b614866f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\zlib">
+      <UniqueIdentifier>{b1c58976-4b61-465e-9e9f-8daa4a96cec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\libpng">
+      <UniqueIdentifier>{e7c5342c-d051-40df-8324-27b6d442051f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\jsoncpp">
+      <UniqueIdentifier>{c5d2eb9c-b720-42c5-9fae-0fef8e19f9c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Tiles">
+      <UniqueIdentifier>{36fa2c03-22f4-459a-9bb1-6619013f6d4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menus">
+      <UniqueIdentifier>{cee36e4f-565c-4008-b716-8c6c803bbb5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{7157ca52-6940-4a95-b7f3-c2a4cb703f80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Level Editor">
+      <UniqueIdentifier>{64fe5859-db83-4f12-985b-4e988cc2e43c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Constants\Menu">
+      <UniqueIdentifier>{f3ac26bb-fe05-4684-acb9-382423a8d844}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Constants\Level">
+      <UniqueIdentifier>{3c42fb77-d303-4725-bb4b-27c0167c98f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Constants\Resources">
+      <UniqueIdentifier>{7e79ef44-6581-4982-82cd-ac848cf3e989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Game\Towers">
+      <UniqueIdentifier>{762a2e52-46d9-48f0-a686-1769329eb1b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLWindow.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Utils\Resource\ResourceUtils.cpp">
+      <Filter>Source Files\Utils\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\OpenGL\OpenGLRenderer.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\OpenGL\OpenGLTexture.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\OpenGL\OpenGLTextureLoader.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\OpenGL\OpenGLTextureManager.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Utils\Logger\Logger.cpp">
+      <Filter>Source Files\Utils\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Constants\Game\GameConstants.cpp">
+      <Filter>Source Files\Constants\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Constants.cpp">
+      <Filter>Source Files\Constants\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Game.cpp">
+      <Filter>Source Files\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Game\Game.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Screen Manager\Screen.cpp">
+      <Filter>Source Files\ScreenManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Screen Manager\ScreenManager.cpp">
+      <Filter>Source Files\ScreenManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Input\InputManager.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Input\InputListener.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Input\InputConstants.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Utils\Math\MathUtils.cpp">
+      <Filter>Source Files\Utils\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\OpenGL\OpenGLAnimatedTexture.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Libraries\zlib\adler32.c">
+      <Filter>Libraries\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Libraries\zlib\compress.c">
+      <Filter>Libraries\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Libraries\zlib\crc32.c">
+      <Filter>Libraries\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Libraries\zlib\deflate.c">
+      <Filter>Libraries\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Libraries\zlib\gzclose.c">
+      <Filter>Libraries\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Libraries\zlib\gzlib.c">
+      <Filter>Libraries\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Libraries\zlib\gzread.c">
+      <Filter>Libraries\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Libraries\zlib\gzwrite.c">
+      <Filter>Libraries\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Libraries\zlib\infback.c">
+      <Filter>Libraries\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Libraries\zlib\inffast.c">
+      <Filter>Libraries\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Libraries\zlib\inflate.c">
+      <Filter>Libraries\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Libraries\zlib\inftrees.c">
+      <Filter>Libraries\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Libraries\zlib\trees.c">
+      <Filter>Libraries\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Libraries\zlib\uncompr.c">
+      <Filter>Libraries\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Libraries\zlib\zutil.c">
+      <Filter>Libraries\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Libraries\libpng\png.c">
+      <Filter>Libraries\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Libraries\libpng\pngerror.c">
+      <Filter>Libraries\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Libraries\libpng\pngget.c">
+      <Filter>Libraries\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Libraries\libpng\pngmem.c">
+      <Filter>Libraries\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Libraries\libpng\pngpread.c">
+      <Filter>Libraries\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Libraries\libpng\pngread.c">
+      <Filter>Libraries\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Libraries\libpng\pngrio.c">
+      <Filter>Libraries\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Libraries\libpng\pngrtran.c">
+      <Filter>Libraries\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Libraries\libpng\pngrutil.c">
+      <Filter>Libraries\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Libraries\libpng\pngset.c">
+      <Filter>Libraries\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Libraries\libpng\pngtrans.c">
+      <Filter>Libraries\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Libraries\libpng\pngwio.c">
+      <Filter>Libraries\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Libraries\libpng\pngwrite.c">
+      <Filter>Libraries\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Libraries\libpng\pngwtran.c">
+      <Filter>Libraries\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Libraries\libpng\pngwutil.c">
+      <Filter>Libraries\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Libraries\jsoncpp\json_reader.cpp">
+      <Filter>Libraries\jsoncpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Libraries\jsoncpp\json_value.cpp">
+      <Filter>Libraries\jsoncpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Libraries\jsoncpp\json_writer.cpp">
+      <Filter>Libraries\jsoncpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Input\InputEvent.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Input\KeyboardEvent.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Input\MouseEvent.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Game\GameObject.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Game\Level.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Game\Player.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Game\Tiles\GroundTile.cpp">
+      <Filter>Source Files\Game\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Game\Tiles\Tile.cpp">
+      <Filter>Source Files\Game\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Menus\MainMenu.cpp">
+      <Filter>Source Files\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Menus\Menu.cpp">
+      <Filter>Source Files\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\UI\UIButton.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\UI\UISideMenu.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\UI\UIToggle.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Level Editor\LevelEditor.cpp">
+      <Filter>Source Files\Level Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\OpenGL\OpenGLTextureCache.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Constants\Menu\MenuConstants.cpp">
+      <Filter>Source Files\Constants\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Constants\Level\LevelConstants.cpp">
+      <Filter>Source Files\Constants\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Constants\Resources\ResourceConstants.cpp">
+      <Filter>Source Files\Constants\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Game\Tiles\TreeTile.cpp">
+      <Filter>Source Files\Game\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Game\Tiles\WaterTile.cpp">
+      <Filter>Source Files\Game\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Menus\SaveMenu.cpp">
+      <Filter>Source Files\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Game\Tiles\GrassTile.cpp">
+      <Filter>Source Files\Game\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Game\Tiles\BrickTile.cpp">
+      <Filter>Source Files\Game\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Menus\LoadingMenu.cpp">
+      <Filter>Source Files\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Game\Tiles\ChestTile.cpp">
+      <Filter>Source Files\Game\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Game\PathNode.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Game\PathFinder.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Game\Hero.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Game\Enemy.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Utils\Math\GDRandom.cpp">
+      <Filter>Source Files\Utils\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Game\Projectile.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Game\Towers\Tower.cpp">
+      <Filter>Source Files\Game\Towers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Game\Towers\TurretTower.cpp">
+      <Filter>Source Files\Game\Towers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Menus\SettingsMenu.cpp">
+      <Filter>Source Files\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Menus\SplashMenu.cpp">
+      <Filter>Source Files\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Menus\CompleteMenu.cpp">
+      <Filter>Source Files\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Menus\GameOverMenu.cpp">
+      <Filter>Source Files\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Game\Towers\SlowingTower.cpp">
+      <Filter>Source Files\Game\Towers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OpenGLWindow.h">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Utils\Resource\ResourceUtils.h">
+      <Filter>Source Files\Utils\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Utils\Utils.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\OpenGL\OpenGL.h">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\OpenGL\OpenGLBuffer.h">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\OpenGL\OpenGLColor.h">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\OpenGL\OpenGLRenderer.h">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\OpenGL\OpenGLTexture.h">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\OpenGL\OpenGLTextureLoader.h">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\OpenGL\OpenGLTextureManager.h">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Utils\Logger\Logger.h">
+      <Filter>Source Files\Utils\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Constants\Constants.h">
+      <Filter>Source Files\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Constants\Game\GameConstants.h">
+      <Filter>Source Files\Constants\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Constants.h">
+      <Filter>Source Files\Constants\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Exception.h">
+      <Filter>Source Files\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Game.h">
+      <Filter>Source Files\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Game\Game.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Screen Manager\Screen.h">
+      <Filter>Source Files\ScreenManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Screen Manager\ScreenManager.h">
+      <Filter>Source Files\ScreenManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Input\InputListener.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Input\InputManager.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Input\Input.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Input\InputConstants.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Utils\Math\MathUtils.h">
+      <Filter>Source Files\Utils\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\OpenGL\OpenGLAnimatedTexture.h">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Libraries\zlib\crc32.h">
+      <Filter>Libraries\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Libraries\zlib\deflate.h">
+      <Filter>Libraries\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Libraries\zlib\gzguts.h">
+      <Filter>Libraries\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Libraries\zlib\inffast.h">
+      <Filter>Libraries\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Libraries\zlib\inffixed.h">
+      <Filter>Libraries\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Libraries\zlib\inflate.h">
+      <Filter>Libraries\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Libraries\zlib\inftrees.h">
+      <Filter>Libraries\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Libraries\zlib\trees.h">
+      <Filter>Libraries\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Libraries\zlib\zconf.h">
+      <Filter>Libraries\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Libraries\zlib\zlib.h">
+      <Filter>Libraries\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Libraries\zlib\zutil.h">
+      <Filter>Libraries\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Libraries\libpng\png.h">
+      <Filter>Libraries\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Libraries\libpng\pngconf.h">
+      <Filter>Libraries\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Libraries\libpng\pngdebug.h">
+      <Filter>Libraries\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Libraries\libpng\pnginfo.h">
+      <Filter>Libraries\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Libraries\libpng\pnglibconf.h">
+      <Filter>Libraries\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Libraries\libpng\pngpriv.h">
+      <Filter>Libraries\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Libraries\libpng\pngstruct.h">
+      <Filter>Libraries\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Libraries\jsoncpp\autolink.h">
+      <Filter>Libraries\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Libraries\jsoncpp\config.h">
+      <Filter>Libraries\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Libraries\jsoncpp\features.h">
+      <Filter>Libraries\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Libraries\jsoncpp\forwards.h">
+      <Filter>Libraries\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Libraries\jsoncpp\json.h">
+      <Filter>Libraries\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Libraries\jsoncpp\json_batchallocator.h">
+      <Filter>Libraries\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Libraries\jsoncpp\reader.h">
+      <Filter>Libraries\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Libraries\jsoncpp\value.h">
+      <Filter>Libraries\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Libraries\jsoncpp\writer.h">
+      <Filter>Libraries\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Input\InputEvent.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Input\KeyboardEvent.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Input\MouseEvent.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Game\GameObject.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Game\Level.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Game\Player.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Game\Tiles\GroundTile.h">
+      <Filter>Source Files\Game\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Game\Tiles\Tile.h">
+      <Filter>Source Files\Game\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Menus\MainMenu.h">
+      <Filter>Source Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Menus\Menu.h">
+      <Filter>Source Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\UI\UIButton.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\UI\UISideMenu.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\UI\UIToggle.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Level Editor\LevelEditor.h">
+      <Filter>Source Files\Level Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\OpenGL\OpenGLTextureCache.h">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Constants\Menu\MenuConstants.h">
+      <Filter>Source Files\Constants\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Constants\Level\LevelConstants.h">
+      <Filter>Source Files\Constants\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Constants\Resources\ResourceConstants.h">
+      <Filter>Source Files\Constants\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Game\Tiles\TreeTile.h">
+      <Filter>Source Files\Game\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Game\Tiles\WaterTile.h">
+      <Filter>Source Files\Game\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Menus\SaveMenu.h">
+      <Filter>Source Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Game\Tiles\GrassTile.h">
+      <Filter>Source Files\Game\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Game\Tiles\BrickTile.h">
+      <Filter>Source Files\Game\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Menus\LoadingMenu.h">
+      <Filter>Source Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Game\Tiles\ChestTile.h">
+      <Filter>Source Files\Game\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Game\PathNode.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Game\PathFinder.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Game\Hero.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Game\Enemy.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Utils\Math\GDRandom.h">
+      <Filter>Source Files\Utils\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Game\Projectile.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Game\Towers\Tower.h">
+      <Filter>Source Files\Game\Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Game\Towers\TurretTower.h">
+      <Filter>Source Files\Game\Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Menus\SettingsMenu.h">
+      <Filter>Source Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Menus\SplashMenu.h">
+      <Filter>Source Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Menus\CompleteMenu.h">
+      <Filter>Source Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Menus\GameOverMenu.h">
+      <Filter>Source Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Game\Towers\SlowingTower.h">
+      <Filter>Source Files\Game\Towers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Common\Libraries\jsoncpp\json_internalarray.inl">
+      <Filter>Libraries\jsoncpp</Filter>
+    </None>
+    <None Include="..\..\Common\Libraries\jsoncpp\json_internalmap.inl">
+      <Filter>Libraries\jsoncpp</Filter>
+    </None>
+    <None Include="..\..\Common\Libraries\jsoncpp\json_valueiterator.inl">
+      <Filter>Libraries\jsoncpp</Filter>
+    </None>
+  </ItemGroup>
+</Project>

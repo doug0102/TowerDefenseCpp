@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CED9FB28-17F4-4146-9351-8C13EE9D3BDE}</ProjectGuid>
+    <RootNamespace>Tutorial1</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>GAM-1514 Windows Game</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)\Application\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)\Build Files\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USE_MATH_DEFINES</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>H:\~VISUAL STUDIO\Assignment 3\Source\Common\Menus;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>..\Dependencies\DevIL\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USE_MATH_DEFINES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Common\Constants\Game\GameConstants.cpp" />
+    <ClCompile Include="..\..\Common\Constants\Level\LevelConstants.cpp" />
+    <ClCompile Include="..\..\Common\Constants\Menu\MenuConstants.cpp" />
+    <ClCompile Include="..\..\Common\Constants\Resources\ResourceConstants.cpp" />
+    <ClCompile Include="..\..\Common\Game\Enemy.cpp" />
+    <ClCompile Include="..\..\Common\Game\Game.cpp" />
+    <ClCompile Include="..\..\Common\Game\GameObject.cpp" />
+    <ClCompile Include="..\..\Common\Game\Hero.cpp" />
+    <ClCompile Include="..\..\Common\Game\Level.cpp" />
+    <ClCompile Include="..\..\Common\Game\PathFinder.cpp" />
+    <ClCompile Include="..\..\Common\Game\PathNode.cpp" />
+    <ClCompile Include="..\..\Common\Game\Player.cpp" />
+    <ClCompile Include="..\..\Common\Game\Projectile.cpp" />
+    <ClCompile Include="..\..\Common\Game\Tiles\BrickTile.cpp" />
+    <ClCompile Include="..\..\Common\Game\Tiles\ChestTile.cpp" />
+    <ClCompile Include="..\..\Common\Game\Tiles\GrassTile.cpp" />
+    <ClCompile Include="..\..\Common\Game\Tiles\GroundTile.cpp" />
+    <ClCompile Include="..\..\Common\Game\Tiles\Tile.cpp" />
+    <ClCompile Include="..\..\Common\Game\Tiles\TreeTile.cpp" />
+    <ClCompile Include="..\..\Common\Game\Tiles\WaterTile.cpp" />
+    <ClCompile Include="..\..\Common\Game\Towers\SlowingTower.cpp" />
+    <ClCompile Include="..\..\Common\Game\Towers\Tower.cpp" />
+    <ClCompile Include="..\..\Common\Game\Towers\TurretTower.cpp" />
+    <ClCompile Include="..\..\Common\Input\InputConstants.cpp" />
+    <ClCompile Include="..\..\Common\Input\InputEvent.cpp" />
+    <ClCompile Include="..\..\Common\Input\InputListener.cpp" />
+    <ClCompile Include="..\..\Common\Input\InputManager.cpp" />
+    <ClCompile Include="..\..\Common\Input\KeyboardEvent.cpp" />
+    <ClCompile Include="..\..\Common\Input\MouseEvent.cpp" />
+    <ClCompile Include="..\..\Common\Level Editor\LevelEditor.cpp" />
+    <ClCompile Include="..\..\Common\Libraries\jsoncpp\json_reader.cpp" />
+    <ClCompile Include="..\..\Common\Libraries\jsoncpp\json_value.cpp" />
+    <ClCompile Include="..\..\Common\Libraries\jsoncpp\json_writer.cpp" />
+    <ClCompile Include="..\..\Common\Libraries\libpng\png.c" />
+    <ClCompile Include="..\..\Common\Libraries\libpng\pngerror.c" />
+    <ClCompile Include="..\..\Common\Libraries\libpng\pngget.c" />
+    <ClCompile Include="..\..\Common\Libraries\libpng\pngmem.c" />
+    <ClCompile Include="..\..\Common\Libraries\libpng\pngpread.c" />
+    <ClCompile Include="..\..\Common\Libraries\libpng\pngread.c" />
+    <ClCompile Include="..\..\Common\Libraries\libpng\pngrio.c" />
+    <ClCompile Include="..\..\Common\Libraries\libpng\pngrtran.c" />
+    <ClCompile Include="..\..\Common\Libraries\libpng\pngrutil.c" />
+    <ClCompile Include="..\..\Common\Libraries\libpng\pngset.c" />
+    <ClCompile Include="..\..\Common\Libraries\libpng\pngtrans.c" />
+    <ClCompile Include="..\..\Common\Libraries\libpng\pngwio.c" />
+    <ClCompile Include="..\..\Common\Libraries\libpng\pngwrite.c" />
+    <ClCompile Include="..\..\Common\Libraries\libpng\pngwtran.c" />
+    <ClCompile Include="..\..\Common\Libraries\libpng\pngwutil.c" />
+    <ClCompile Include="..\..\Common\Libraries\zlib\adler32.c" />
+    <ClCompile Include="..\..\Common\Libraries\zlib\compress.c" />
+    <ClCompile Include="..\..\Common\Libraries\zlib\crc32.c" />
+    <ClCompile Include="..\..\Common\Libraries\zlib\deflate.c" />
+    <ClCompile Include="..\..\Common\Libraries\zlib\gzclose.c" />
+    <ClCompile Include="..\..\Common\Libraries\zlib\gzlib.c" />
+    <ClCompile Include="..\..\Common\Libraries\zlib\gzread.c" />
+    <ClCompile Include="..\..\Common\Libraries\zlib\gzwrite.c" />
+    <ClCompile Include="..\..\Common\Libraries\zlib\infback.c" />
+    <ClCompile Include="..\..\Common\Libraries\zlib\inffast.c" />
+    <ClCompile Include="..\..\Common\Libraries\zlib\inflate.c" />
+    <ClCompile Include="..\..\Common\Libraries\zlib\inftrees.c" />
+    <ClCompile Include="..\..\Common\Libraries\zlib\trees.c" />
+    <ClCompile Include="..\..\Common\Libraries\zlib\uncompr.c" />
+    <ClCompile Include="..\..\Common\Libraries\zlib\zutil.c" />
+    <ClCompile Include="..\..\Common\Menus\CompleteMenu.cpp" />
+    <ClCompile Include="..\..\Common\Menus\GameOverMenu.cpp" />
+    <ClCompile Include="..\..\Common\Menus\LoadingMenu.cpp" />
+    <ClCompile Include="..\..\Common\Menus\MainMenu.cpp" />
+    <ClCompile Include="..\..\Common\Menus\Menu.cpp" />
+    <ClCompile Include="..\..\Common\Menus\SaveMenu.cpp" />
+    <ClCompile Include="..\..\Common\Menus\SettingsMenu.cpp" />
+    <ClCompile Include="..\..\Common\Menus\SplashMenu.cpp" />
+    <ClCompile Include="..\..\Common\OpenGL\OpenGLAnimatedTexture.cpp" />
+    <ClCompile Include="..\..\Common\OpenGL\OpenGLRenderer.cpp" />
+    <ClCompile Include="..\..\Common\OpenGL\OpenGLTexture.cpp" />
+    <ClCompile Include="..\..\Common\OpenGL\OpenGLTextureCache.cpp" />
+    <ClCompile Include="..\..\Common\OpenGL\OpenGLTextureLoader.cpp" />
+    <ClCompile Include="..\..\Common\OpenGL\OpenGLTextureManager.cpp" />
+    <ClCompile Include="..\..\Common\Screen Manager\Screen.cpp" />
+    <ClCompile Include="..\..\Common\Screen Manager\ScreenManager.cpp" />
+    <ClCompile Include="..\..\Common\UI\UIButton.cpp" />
+    <ClCompile Include="..\..\Common\UI\UISideMenu.cpp" />
+    <ClCompile Include="..\..\Common\UI\UIToggle.cpp" />
+    <ClCompile Include="..\..\Common\Utils\Logger\Logger.cpp" />
+    <ClCompile Include="..\..\Common\Utils\Math\GDRandom.cpp" />
+    <ClCompile Include="..\..\Common\Utils\Math\MathUtils.cpp" />
+    <ClCompile Include="..\..\Common\Utils\Resource\ResourceUtils.cpp" />
+    <ClCompile Include="Win32Constants.cpp" />
+    <ClCompile Include="Win32Game.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="OpenGLWindow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Common\Constants\Constants.h" />
+    <ClInclude Include="..\..\Common\Constants\Game\GameConstants.h" />
+    <ClInclude Include="..\..\Common\Constants\Level\LevelConstants.h" />
+    <ClInclude Include="..\..\Common\Constants\Menu\MenuConstants.h" />
+    <ClInclude Include="..\..\Common\Constants\Resources\ResourceConstants.h" />
+    <ClInclude Include="..\..\Common\Game\Enemy.h" />
+    <ClInclude Include="..\..\Common\Game\Game.h" />
+    <ClInclude Include="..\..\Common\Game\GameObject.h" />
+    <ClInclude Include="..\..\Common\Game\Hero.h" />
+    <ClInclude Include="..\..\Common\Game\Level.h" />
+    <ClInclude Include="..\..\Common\Game\PathFinder.h" />
+    <ClInclude Include="..\..\Common\Game\PathNode.h" />
+    <ClInclude Include="..\..\Common\Game\Player.h" />
+    <ClInclude Include="..\..\Common\Game\Projectile.h" />
+    <ClInclude Include="..\..\Common\Game\Tiles\BrickTile.h" />
+    <ClInclude Include="..\..\Common\Game\Tiles\ChestTile.h" />
+    <ClInclude Include="..\..\Common\Game\Tiles\GrassTile.h" />
+    <ClInclude Include="..\..\Common\Game\Tiles\GroundTile.h" />
+    <ClInclude Include="..\..\Common\Game\Tiles\Tile.h" />
+    <ClInclude Include="..\..\Common\Game\Tiles\TreeTile.h" />
+    <ClInclude Include="..\..\Common\Game\Tiles\WaterTile.h" />
+    <ClInclude Include="..\..\Common\Game\Towers\SlowingTower.h" />
+    <ClInclude Include="..\..\Common\Game\Towers\Tower.h" />
+    <ClInclude Include="..\..\Common\Game\Towers\TurretTower.h" />
+    <ClInclude Include="..\..\Common\Input\Input.h" />
+    <ClInclude Include="..\..\Common\Input\InputConstants.h" />
+    <ClInclude Include="..\..\Common\Input\InputEvent.h" />
+    <ClInclude Include="..\..\Common\Input\InputListener.h" />
+    <ClInclude Include="..\..\Common\Input\InputManager.h" />
+    <ClInclude Include="..\..\Common\Input\KeyboardEvent.h" />
+    <ClInclude Include="..\..\Common\Input\MouseEvent.h" />
+    <ClInclude Include="..\..\Common\Level Editor\LevelEditor.h" />
+    <ClInclude Include="..\..\Common\Libraries\jsoncpp\autolink.h" />
+    <ClInclude Include="..\..\Common\Libraries\jsoncpp\config.h" />
+    <ClInclude Include="..\..\Common\Libraries\jsoncpp\features.h" />
+    <ClInclude Include="..\..\Common\Libraries\jsoncpp\forwards.h" />
+    <ClInclude Include="..\..\Common\Libraries\jsoncpp\json.h" />
+    <ClInclude Include="..\..\Common\Libraries\jsoncpp\json_batchallocator.h" />
+    <ClInclude Include="..\..\Common\Libraries\jsoncpp\reader.h" />
+    <ClInclude Include="..\..\Common\Libraries\jsoncpp\value.h" />
+    <ClInclude Include="..\..\Common\Libraries\jsoncpp\writer.h" />
+    <ClInclude Include="..\..\Common\Libraries\libpng\png.h" />
+    <ClInclude Include="..\..\Common\Libraries\libpng\pngconf.h" />
+    <ClInclude Include="..\..\Common\Libraries\libpng\pngdebug.h" />
+    <ClInclude Include="..\..\Common\Libraries\libpng\pnginfo.h" />
+    <ClInclude Include="..\..\Common\Libraries\libpng\pnglibconf.h" />
+    <ClInclude Include="..\..\Common\Libraries\libpng\pngpriv.h" />
+    <ClInclude Include="..\..\Common\Libraries\libpng\pngstruct.h" />
+    <ClInclude Include="..\..\Common\Libraries\zlib\crc32.h" />
+    <ClInclude Include="..\..\Common\Libraries\zlib\deflate.h" />
+    <ClInclude Include="..\..\Common\Libraries\zlib\gzguts.h" />
+    <ClInclude Include="..\..\Common\Libraries\zlib\inffast.h" />
+    <ClInclude Include="..\..\Common\Libraries\zlib\inffixed.h" />
+    <ClInclude Include="..\..\Common\Libraries\zlib\inflate.h" />
+    <ClInclude Include="..\..\Common\Libraries\zlib\inftrees.h" />
+    <ClInclude Include="..\..\Common\Libraries\zlib\trees.h" />
+    <ClInclude Include="..\..\Common\Libraries\zlib\zconf.h" />
+    <ClInclude Include="..\..\Common\Libraries\zlib\zlib.h" />
+    <ClInclude Include="..\..\Common\Libraries\zlib\zutil.h" />
+    <ClInclude Include="..\..\Common\Menus\CompleteMenu.h" />
+    <ClInclude Include="..\..\Common\Menus\GameOverMenu.h" />
+    <ClInclude Include="..\..\Common\Menus\LoadingMenu.h" />
+    <ClInclude Include="..\..\Common\Menus\MainMenu.h" />
+    <ClInclude Include="..\..\Common\Menus\Menu.h" />
+    <ClInclude Include="..\..\Common\Menus\SaveMenu.h" />
+    <ClInclude Include="..\..\Common\Menus\SettingsMenu.h" />
+    <ClInclude Include="..\..\Common\Menus\SplashMenu.h" />
+    <ClInclude Include="..\..\Common\OpenGL\OpenGL.h" />
+    <ClInclude Include="..\..\Common\OpenGL\OpenGLAnimatedTexture.h" />
+    <ClInclude Include="..\..\Common\OpenGL\OpenGLBuffer.h" />
+    <ClInclude Include="..\..\Common\OpenGL\OpenGLColor.h" />
+    <ClInclude Include="..\..\Common\OpenGL\OpenGLRenderer.h" />
+    <ClInclude Include="..\..\Common\OpenGL\OpenGLTexture.h" />
+    <ClInclude Include="..\..\Common\OpenGL\OpenGLTextureCache.h" />
+    <ClInclude Include="..\..\Common\OpenGL\OpenGLTextureLoader.h" />
+    <ClInclude Include="..\..\Common\OpenGL\OpenGLTextureManager.h" />
+    <ClInclude Include="..\..\Common\Screen Manager\Screen.h" />
+    <ClInclude Include="..\..\Common\Screen Manager\ScreenManager.h" />
+    <ClInclude Include="..\..\Common\UI\UIButton.h" />
+    <ClInclude Include="..\..\Common\UI\UISideMenu.h" />
+    <ClInclude Include="..\..\Common\UI\UIToggle.h" />
+    <ClInclude Include="..\..\Common\Utils\Logger\Logger.h" />
+    <ClInclude Include="..\..\Common\Utils\Math\GDRandom.h" />
+    <ClInclude Include="..\..\Common\Utils\Math\MathUtils.h" />
+    <ClInclude Include="..\..\Common\Utils\Resource\ResourceUtils.h" />
+    <ClInclude Include="..\..\Common\Utils\Utils.h" />
+    <ClInclude Include="Win32Constants.h" />
+    <ClInclude Include="Win32Game.h" />
+    <ClInclude Include="Win32Exception.h" />
+    <ClInclude Include="OpenGLWindow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Common\Libraries\jsoncpp\json_internalarray.inl" />
+    <None Include="..\..\Common\Libraries\jsoncpp\json_internalmap.inl" />
+    <None Include="..\..\Common\Libraries\jsoncpp\json_valueiterator.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

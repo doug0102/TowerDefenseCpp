@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'GAM-1532 OSX Game' target in the 'GAM-1532 OSX Game' project
+//
+
+#ifdef __OBJC__
+  #import <Cocoa/Cocoa.h>
+#endif

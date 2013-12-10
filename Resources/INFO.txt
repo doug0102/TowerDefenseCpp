@@ -1,0 +1,18 @@
+To add buttons/tiles to the game
+
+- Make the required textures
+
+
+- Add them to constants in the folders
+
+	Resource constants
+	Game constants
+	Level Constants.h
+
+
+- Add code to
+	Level.cpp in setTileAtIndex() switch statement
+
+
+- Add code to
+	LevelEditor.cpp constructor to create new button of the texture

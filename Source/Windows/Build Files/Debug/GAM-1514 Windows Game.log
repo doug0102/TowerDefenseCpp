@@ -1,0 +1,123 @@
+﻿Build started 08/12/2013 10:53:13 PM.
+     1>Project "D:\Final\Assignment-3 pathing\Source\Windows\Windows Game\GAM-1514 Windows Game.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\GAM-1514 Windows Game.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"H:\~VISUAL STUDIO\Assignment 3\Source\Common\Menus" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\\" /Fd"D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Common\Game\Towers\SlowingTower.cpp
+         SlowingTower.cpp
+     1>d:\final\assignment-3 pathing\source\common\opengl\openglcolor.h(67): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\final\assignment-3 pathing\source\common\opengl\openglcolor.h(67): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\final\assignment-3 pathing\source\common\opengl\openglcolor.h(67): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\final\assignment-3 pathing\source\common\game\towers\slowingtower.cpp(12): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\final\assignment-3 pathing\source\common\game\towers\slowingtower.cpp(42): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\final\assignment-3 pathing\source\common\game\towers\slowingtower.cpp(42): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\final\assignment-3 pathing\source\common\game\towers\slowingtower.cpp(45): warning C4018: '<' : signed/unsigned mismatch
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Final\Assignment-3 pathing\Source\Windows\\Application\GAM-1514 Windows Game.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\Dependencies\DevIL\lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\GAM-1514 Windows Game.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Final\Assignment-3 pathing\Source\Windows\Application\GAM-1514 Windows Game.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Final\Assignment-3 pathing\Source\Windows\\Application\GAM-1514 Windows Game.lib" /MACHINE:X86 "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\GAM-1514 Windows Game.exe.embed.manifest.res"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\GameConstants.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\LevelConstants.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\MenuConstants.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\ResourceConstants.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\Enemy.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\Game.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\GameObject.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\Hero.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\Level.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\PathFinder.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\PathNode.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\Player.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\Projectile.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\BrickTile.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\ChestTile.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\GrassTile.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\GroundTile.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\Tile.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\TreeTile.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\WaterTile.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\SlowingTower.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\Tower.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\TurretTower.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\InputConstants.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\InputEvent.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\InputListener.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\InputManager.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\KeyboardEvent.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\MouseEvent.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\LevelEditor.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\json_reader.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\json_value.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\json_writer.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\png.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\pngerror.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\pngget.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\pngmem.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\pngpread.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\pngread.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\pngrio.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\pngrtran.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\pngrutil.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\pngset.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\pngtrans.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\pngwio.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\pngwrite.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\pngwtran.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\pngwutil.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\adler32.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\compress.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\crc32.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\deflate.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\gzclose.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\gzlib.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\gzread.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\gzwrite.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\infback.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\inffast.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\inflate.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\inftrees.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\trees.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\uncompr.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\zutil.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\CompleteMenu.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\GameOverMenu.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\LoadingMenu.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\MainMenu.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\Menu.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\SaveMenu.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\SettingsMenu.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\SplashMenu.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\OpenGLAnimatedTexture.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\OpenGLRenderer.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\OpenGLTexture.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\OpenGLTextureCache.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\OpenGLTextureLoader.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\OpenGLTextureManager.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\Screen.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\ScreenManager.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\UIButton.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\UISideMenu.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\UIToggle.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\Logger.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\GDRandom.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\MathUtils.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\ResourceUtils.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\Win32Constants.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\Win32Game.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\Main.obj"
+         "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\OpenGLWindow.obj"
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\GAM-1514 Windows Game.exe.embed.manifest" /manifest "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\GAM-1514 Windows Game.exe.intermediate.manifest"
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         GAM-1514 Windows Game.vcxproj -> D:\Final\Assignment-3 pathing\Source\Windows\\Application\GAM-1514 Windows Game.exe
+       FinalizeBuildStatus:
+         Deleting file "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\GAM-1514 Windows Game.unsuccessfulbuild".
+         Touching "D:\Final\Assignment-3 pathing\Source\Windows\\Build Files\Debug\GAM-1514 Windows Game.lastbuildstate".
+     1>Done Building Project "D:\Final\Assignment-3 pathing\Source\Windows\Windows Game\GAM-1514 Windows Game.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.72

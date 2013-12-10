@@ -1,0 +1,5 @@
+Font
+
+Sans Bold
+size 35
+antialiasing OFF
